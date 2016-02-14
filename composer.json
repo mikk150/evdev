@@ -1,6 +1,6 @@
 {
     "name": "mikk150/evdev",
-    "description": "",
+    "description": "Library to read linux evdev file and extracting react events out of it",
     "type": "library",
     "license": "GPLv2",
 
