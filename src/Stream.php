@@ -45,11 +45,7 @@ class Stream extends EventEmitter
         $resolvedEvent = $this->eventResolver->resolveEvent($eventData);
         if ($resolvedEvent) {
             $this->emit('data', array($resolvedEvent, $this));
-            //var_dump($resolvedEvent);
         }
-        //var_dump($eventData);
-        //unpack($this->evBinaryFormat,$data)
-        //var_dump(unpack($this->evBinaryFormat,$data));
     }
 
     /**
