@@ -1,0 +1,17 @@
+{
+    "name": "mikk150/evdev",
+    "description": "",
+    "type": "library",
+    "license": "GPLv2",
+
+    "require": {
+        "react/stream": "^0.4.3",
+        "react/event-loop": "^0.4"
+    },
+
+    "autoload": {
+    "psr-4": {
+      "mikk150\\evdev\\": "src/"
+    }
+  }
+}
